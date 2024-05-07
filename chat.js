@@ -6,7 +6,7 @@ By default, Ollama allows cross origin requests from 127.0.0.1 and 0.0.0.0.
 To support more origins, you can use the OLLAMA_ORIGINS environment variable:
 
 \`\`\`
-OLLAMA_ORIGINS=${window.location.origin} ollama serve
+OLLAMA_ORIGINS=https://ggeorge185.github.io ollama serve
 \`\`\`
 
 Also see: https://github.com/jmorganca/ollama/blob/main/docs/faq.md
