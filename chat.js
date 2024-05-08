@@ -1,17 +1,4 @@
 const faqString = `
-**How can I expose the Ollama server?**
-
-By default, Ollama allows cross origin requests from 127.0.0.1 and 0.0.0.0.
-
-To support more origins, you can use the OLLAMA_ORIGINS environment variable:
-
-\`\`\`
-OLLAMA_ORIGINS=https://ggeorge185.github.io ollama serve
-\`\`\`
-
-Also see: https://github.com/jmorganca/ollama/blob/main/docs/faq.md
-`;
-
 
 
 const clipboardIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
